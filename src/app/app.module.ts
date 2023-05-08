@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BookCardComponent } from './common/components/book-card/book-card.component';
 import { BookCategoryCardComponent } from './common/components/book-category-card/book-category-card.component';
 import { MaterialModule } from './core/material.module';
 import { PageNotFoundComponent } from './core/page-not-found/page-not-found.component';
@@ -16,7 +15,6 @@ import { HomeComponent } from './pages/home/home.component';
     AppComponent,
     PageNotFoundComponent,
     HomeComponent,
-    BookCardComponent,
     BookCategoryCardComponent,
   ],
   imports: [
